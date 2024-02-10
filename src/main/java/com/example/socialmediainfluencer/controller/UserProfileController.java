@@ -1,2 +1,6 @@
-package com.example.socialmediainfluencer.controller;public class UserProfileController {
+package com.example.socialmediainfluencer.controller;
+
+public class UserProfileController {
+
+
 }
