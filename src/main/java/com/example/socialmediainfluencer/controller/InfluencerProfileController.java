@@ -18,7 +18,6 @@ public class InfluencerProfileController {
 
     @PostMapping
     public InfluencerProfile createInfluencer(@RequestBody InfluencerProfile influencerProfile) {
-        log.info(">> In controller ", influencerProfile);
         return this.influencerProfileService.createInfluencer(influencerProfile);
     }
 
